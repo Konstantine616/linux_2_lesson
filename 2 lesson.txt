@@ -1,0 +1,19 @@
+¬торой урок.
+1. —оздать каталоги first и second в домашней директории, а в них Ч текстовые файлы first.py и second.py, содержащие программы, вывод€щие на экран числа 1 и 2 соответственно.
+~$ cd ~
+~$ mkdir first
+~$ mkdir second
+~$ echo 'print(1)' > first/first.py
+~$ echo 'print(2)' > second/second.py
+
+2. ѕереместите файл second.py в папку first.
+~$ mv second/second.py first/
+
+3. ”далите папку second.
+~$ rmdir second/
+
+4. ѕереименуйте папку first в first_second.
+~$ mv first first_second
+
+5. ”далите папку first_second вместе с содержимым.
+~$ rm -r first_second
